@@ -1,0 +1,8 @@
+mqtt:
+  host: 'mqtt.example.com'
+  port: 8883
+  username: 'my_username'
+  password: 'my_password'
+  topic: 'ruuvitags/climate'
+
+data_format: 'influxdb'  # options: 'xml', 'json', 'influxdb'

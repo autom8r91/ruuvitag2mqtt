@@ -1,0 +1,8 @@
+version: '3'
+services:
+  climate-monitor:
+    build: .
+    image: climate-monitor
+    volumes:
+      - '/etc/climate-monitor:/etc/climate-monitor'
+    restart: always
