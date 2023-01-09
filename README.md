@@ -15,6 +15,7 @@ A tool to deploy an indoor climate monitoring station using a RaspberryPi with R
 1. Make sure your RuuviTags are in range of your RaspberryPi and are broadcasting data.
 2. Configure the MQTT settings and data format in the `config.yaml` file located in the `/etc/climate-monitor` directory.
 3. Check the logs of the Docker container to ensure that the data is being collected and forwarded correctly. You can view the logs by running `docker logs climate-monitor`.
+4. Restart the tool via `make restart`.
 
 ## Troubleshooting
 
